@@ -1,0 +1,739 @@
+body.report {
+    background: rgb(48, 44, 44);
+}
+
+body.test {
+    background: rgb(0, 255, 115);
+}
+
+body.transgrey {
+    background: rgba(17, 15, 15, 0.568);
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(71, 163, 238);
+    background-color: transparent;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+#navbar span:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+a:active {
+    color: rgb(71, 163, 238);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(2, 2, 2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+#navbar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+}
+
+#navbar span {
+    color: rgb(71, 163, 238);
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header img {
+    height: 40px;
+    width: 40px;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+#main {
+    margin-bottom: 10px;
+}
+
+body,
+html {
+    margin: 0;
+    background-image: url("../Images/background3.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.standard {
+    color: white;
+    padding-top: 50px;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.standard span {
+    color: rgb(71, 163, 238);
+}
+
+#container1 {
+    float: left;
+    width: 400px;
+    height: 542px;
+    border: 5px solid black;
+    padding-top: 1px;
+    margin: 20px;
+    background-color: rgb(71, 163, 238);
+}
+
+#container1 iframe {
+    height: 470px;
+    width: 396px;
+}
+
+#container1 h2,
+#container2 h2 {
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#container2 {
+    float: right;
+    width: 500px;
+    height: 542px;
+    border: 5px solid black;
+    padding-top: 1px;
+    padding-right: 4px;
+    margin: 20px;
+    background-color: rgb(73, 153, 109);
+}
+
+#container2 iframe {
+    margin: auto;
+    width: 100%;
+    height: 470px;
+}
+
+#container3 p {
+    height: 500px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container3 p span {
+    color: rgb(71, 163, 238);
+}
+
+section {
+    padding-top: 40px;
+}
+
+.footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: black;
+    color: white;
+    height: 400px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.footer .footer-content {
+    border: none;
+    height: 350px;
+    display: flex;
+}
+
+.footer .footer-content .footer-section {
+    flex: 1;
+    padding: 25px;
+    border: none;
+}
+
+.footer .footer-content h1,
+.footer .footer-content h2 {
+    color: white;
+}
+
+.footer .footer-content .about h1 span {
+    color: rgb(71, 163, 238);
+}
+
+.footer .footer-content .links ul a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    transition: all .3s;
+    color: white;
+    text-decoration: none;
+}
+
+.footer .footer-content .links ul a:hover {
+    color: rgb(71, 163, 238);
+    margin-left: 15px;
+    transition: all .3s;
+}
+
+.footer .footer-content .contactform .contact-input {
+    background: black;
+    color: rgb(71, 163, 238);
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: .9rem 1.4rem;
+    border: 1px solid white;
+}
+
+.footer .footer-bottom {
+    background: rgb(71, 163, 238);
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
+
+.btn {
+    padding: .5rem 1rem;
+    background: rgb(71, 163, 238);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.btn:hover {
+    color: white !important;
+    background: rgb(71, 163, 238);
+}
+
+.text-input {
+    padding: .7rem 1rem;
+    display: block;
+    font-size: 1.2em;
+    border: 1px solid lightgrey;
+    width: 90%;
+    border-radius: 5px;
+    outline: none;
+    color: #444;
+    line-height: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#aboutus {
+    color: white;
+}
+
+#aboutus h2 {
+    padding-left: 20px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#aboutus p {
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+#history {
+    color: white;
+    padding-bottom: 59px;
+}
+
+.contentabout {
+    min-height: 800px;
+}
+
+#history h2 {
+    padding-left: 20px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#p1 {
+    text-align: left;
+    padding-left: 10px;
+    float: left;
+    width: 300px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#p2 {
+    float: right;
+    width: 300px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 3px;
+}
+
+.historyvid {
+    height: 500px;
+    width: 800px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+#vid {
+    padding-bottom: 50px;
+}
+
+.pele {
+    height: 400px;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.zidane {
+    height: 400px;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+#news-content {
+    height: 1200px;
+}
+
+.titles {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+}
+
+.newsp1 {
+    color: rgb(255, 255, 255);
+    float: left;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 500px;
+    padding-left: 45px;
+    padding-bottom: 22px;
+    padding-right: 51px;
+    margin-left: 235px;
+    background-color: rgba(17, 15, 15, 0.425);
+}
+
+.ronaldo {
+    margin-right: 200px;
+    height: 300px;
+    width: 400px;
+    float: right;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: rgba(17, 15, 15, 0.425);
+}
+
+.newsp2 {
+    color: rgb(255, 255, 255);
+    float: right;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 500px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    padding-right: 40px;
+    margin-right: 200px;
+    margin-top: 5px;
+    background-color: rgba(17, 15, 15, 0.425);
+}
+
+.martial {
+    margin-left: 160px;
+    margin-top: 5px;
+    height: 280px;
+    width: 405px;
+    float: right;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: rgba(17, 15, 15, 0.425);
+}
+
+.newsp3 {
+    color: rgb(255, 255, 255);
+    float: left;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 500px;
+    padding-left: 50px;
+    padding-bottom: 44px;
+    padding-right: 40px;
+    margin-left: 235px;
+    margin-top: 5px;
+    background-color: rgba(17, 15, 15, 0.425);
+}
+
+.aguero {
+    margin-right: 206px;
+    margin-top: 5px;
+    height: 250px;
+    width: 400px;
+    float: right;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: rgba(17, 15, 15, 0.425);
+}
+
+.newsp4 {
+    color: rgb(255, 255, 255);
+    float: right;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 500px;
+    padding-left: 50px;
+    padding-bottom: 6px;
+    padding-right: 40px;
+    margin-right: 206px;
+    margin-top: 5px;
+    background-color: rgba(17, 15, 15, 0.425);
+}
+
+.donny {
+    margin-left: 235px;
+    margin-top: 5px;
+    height: 280px;
+    width: 400px;
+    float: left;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: rgba(17, 15, 15, 0.425);
+}
+
+.tables {
+    min-height: 100%;
+}
+
+.prem {
+    margin-left: 60px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+    width: 90%;
+    background-color: rgba(17, 15, 15, 0.726);
+}
+
+th {
+    border-bottom: 1px solid white;
+    width: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 105%;
+}
+
+td {
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.goals {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+/* Contact form */
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#contact {
+    background: black;
+    padding: 25px;
+    margin: 50px 0;
+}
+
+#contact h3 {
+    color: rgb(71, 163, 238);
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #AAA;
+}
+
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #999;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+.contactcontainer {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: black;
+    color: rgb(71, 163, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    color: white;
+    padding-left: 450px;
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.slideshowtitle {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Caption text */
+
+.text {
+    color: #000000;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.slide1,
+.slide2,
+.slide3 {
+    height: 400px;
+}
+
+/* Report */
+
+.reportcontent {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: center;
+    text-align: center;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+}
+
+.reportcontent span {
+    font-size: 20px;
+    color: rgb(71, 163, 238)
+}
+
+.reportcontentappendicdes {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: center;
+    text-align: center;
+    border: 1px solid white;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    background: white;
+}
